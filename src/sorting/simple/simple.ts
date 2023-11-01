@@ -1,7 +1,7 @@
 import {numbers} from '../../mocks';
 
-export const bubbleSorting = () => {
-  let arr = Array.from(numbers);
+export const simpleSorting = () => {
+  const arr = Array.from(numbers);
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[i] > arr[j]) [arr[i], arr[j]] = [arr[j], arr[i]]

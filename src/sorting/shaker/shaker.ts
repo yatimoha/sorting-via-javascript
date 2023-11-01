@@ -1,7 +1,7 @@
 import {numbers} from '../../mocks';
 
 export const shakerSorting = () => {
-  let arr = Array.from(numbers);
+  const arr = Array.from(numbers);
   let i = 0;
   let j = arr.length - 1;
   let directionRight = true;
